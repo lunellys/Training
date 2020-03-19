@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.picture{
+    display: flex;
+   
+   
+}
+ul {
+    font-size: 15px;
+    margin-top: 15px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: rgb(85, 110, 114);
+   
+  
+}
+.list{
+    
+    width: 100%;
+    background-color:#a8d4dd;
+    
+ 
+}
+.list li{
+    padding: 20px;
+    
+}
+.colors{
+    font-size: 25px;
+    color: rgb(85, 110, 114);
+
+}
+
+
+
+.home:hover ,.services:hover,.portafolio:hover,.blog:hover,.contact:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(85, 110, 114);;
+    border-radius: 10px;
+}
+
+ 
+
+
+.text-1{
+   
+    margin: auto;
+    display: flex;
+    background-color: #a8d4dd;
+    justify-content: center;
+    
+}
+.text-1 p{
+    text-align: center;
+    color: white;
+}
+.text-2{
+    margin: 30px auto;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+.e1,.e2,.e3{
+    text-align: center;
+    color: gray;
+    
+}
+h4{
+    color: #000;
+    
+}
+h1{
+    display: flex;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-right: 60px;
+}
+
+
