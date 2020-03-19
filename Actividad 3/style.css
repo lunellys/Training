@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+ 
+}
+.general{
+ border: solid purple ;
+ height: auto;
+ 
+ text-align: center;
+ 
+
+}
+p{
+    margin-top: 20px;
+    
+
+}
+
+
+.header{
+    width: 960px;
+    height: 100px;
+    border: solid rgba(0, 0, 205, 0.966);
+    margin: auto;
+    
+    line-height:100px;
+    
+
+}
+
+.green{
+    width: 960px;
+    height: 460px;
+    border: solid green;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+.main{
+    width: 457px;
+    height: 415px;
+    border: solid yellow;
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 350px;
+}
+.sidebar{
+    
+    width: 457px;
+    height: 415px;
+    border: solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 30px ;
+    
+}
+
+.sidebar3{
+    width: 430px;
+    height: 100px;
+    border: solid peru;
+    margin: 8px;
+    line-height: 100px;
+
+    
+}
+.sidebar1{
+    width: 210px;
+    height: 250px;
+    text-align: center;
+    border: solid red;
+    display: inline-block;
+    margin-left: 10px;
+    writing-mode: vertical-rl;
+    transform: rotateZ(180deg);
+    line-height: 210px;
+
+
+}
+
+.sidebar2{
+    width: 210px;
+    height: 250px;
+    border: solid pink;
+    display: inline-block;
+    text-align: center;
+    line-height: 210px;
+    writing-mode: vertical-lr;
+    transform: rotateZ(180deg);
+
+}
+
+.footer{
+    width: 960px;
+    height: 100px;
+    border: solid maroon;
+    margin: auto;
+    margin-top: 10px;
+    line-height:100px;
+    margin-block-end: 250px;
+
+}
+
+@media screen and (max-width:500px){
+
+.general{
+    width: 100%;
+    height: auto;
+    
+}
+.header{
+    width: 80%;
+    margin: auto;
+}
+.green{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.main{
+    width: 90%;
+    margin: 10px auto;
+
+}
+.sidebar{
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebar3{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+
+}
+.sidebar1{
+    width: 92%;
+    height:  200px;
+    margin: 5px auto;
+    writing-mode: horizontal-tb;
+    transform: rotateZ(0deg);
+
+}
+.sidebar2{
+    width: 92%;
+    height: 200px;
+    margin: 5px auto;
+    writing-mode: horizontal-tb;
+    transform: rotateZ(0deg);
+    
+    
+}
+.footer{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+}
+
+
