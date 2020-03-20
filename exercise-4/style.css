@@ -12,6 +12,7 @@ body{
    
 }
 ul {
+    
     font-size: 15px;
     margin-top: 15px;
     display: flex;
@@ -22,7 +23,7 @@ ul {
   
 }
 .list{
-    
+   
     width: 100%;
     background-color:#a8d4dd;
     
@@ -30,11 +31,11 @@ ul {
 }
 .list li{
     height: 40px;
-    padding: 20px;
+    padding:10px 13px 20px 28px;
 }
 .colors{
     font-size: 30px;
-    margin-right: 200px;
+    margin-right: 210px;
     color: rgb(85, 110, 114);
 
 
@@ -47,7 +48,7 @@ ul {
     color: #a8d4dd;
     background-color: rgb(85, 110, 114);;
     
-    height: 1px;
+    height: 3px;
     margin-top:1px;
     border-radius: 10px;
     
